@@ -1,9 +1,9 @@
-import FormContainer from "./Form/FormContainer";
+import UserInput from "./Components/User/UserInput";
 
 import "./App.css";
 
 function App() {
-  return <FormContainer />;
+  return <UserInput />;
 }
 
 export default App;
