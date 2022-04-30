@@ -46,7 +46,7 @@ const UserInput = (props) => {
   };
 
   return (
-    <div>
+    <>
       {error && (
         <ErrorModule
           title={error.title}
@@ -73,7 +73,7 @@ const UserInput = (props) => {
           <Button type="submit">Submit </Button>
         </form>
       </Card>
-    </div>
+    </>
   );
 };
 
